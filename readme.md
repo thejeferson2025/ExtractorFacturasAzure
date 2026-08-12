@@ -17,12 +17,12 @@ graph TD
     classDef db fill:#333333,stroke:#fff,stroke-width:2px,color:#fff,font-weight:bold;
     classDef react fill:#61dafb,stroke:#333,stroke-width:2px,color:#333,font-weight:bold;
 
-    %% Nodos
-    A(1. Power Automate<br>Orquestador)
-    B(2. Azure Functions<br>C# .NET 10)
-    C(Modelo IA Gemini<br>Procesamiento PLN)
-    D[(3. SQL Server<br>Persistencia)]
-    E(4. App React<br>Interfaz Web)
+    %% Nodos (Se agregan comillas dobles para que GitHub respete los saltos de línea)
+    A("1. Power Automate<br/>Orquestador")
+    B("2. Azure Functions<br/>C# .NET 10")
+    C("Modelo IA Google<br/>Procesamiento PLN")
+    D[("3. SQL Server<br/>Persistencia")]
+    E("4. App React<br/>Interfaz Web")
 
     %% Asignación de estilos segura
     class A powerAutomate;
